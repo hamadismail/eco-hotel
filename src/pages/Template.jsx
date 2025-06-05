@@ -60,7 +60,7 @@ const Template = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-12 px-4 text-sm font-sans">
+    <div className="w-4xl mx-auto mt-12 px-4 text-sm font-sans">
       <Toaster position="top-center" reverseOrder={false} />
       <div ref={receiptRef} className="bg-white p-8 border rounded shadow-md">
         {/* Header */}
